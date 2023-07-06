@@ -5,7 +5,7 @@
 
 .menu-cotainer{
     background-color: black;
-    padding: 18px;
+    padding: 10px;
     color: aliceblue;
     list-style: none;
     display: flex;
@@ -73,8 +73,8 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .about-img{
     width: 300px;
@@ -117,13 +117,41 @@
     font-size: 50px;
     font-weight: bold;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .sec-bg{
     background-image: url("./Image/background.png"),linear-gradient(#000000, #000000);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+.sec-foot-bg{
+    background-size: cover;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.footbox{
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    padding: 30px;
+    color: white;
+}
+.footlogo{
+    width: 150px;
+    height: 30px;
+}
+.ll{
+    list-style: none;
 }
